@@ -22,4 +22,43 @@ body
 .instagram-wrapper
 {
     display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-box-um
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-box-um img
+{
+    height: auto;
+    max-height: 50rem;
+}
+
+.instagram-box-dois
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width:  50%;
+    min-height: 34rem;
+}
+
+.group
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem;
 }
