@@ -1,43 +1,35 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./static/css/style.css">
-        <link rel="shortcut icon" type="image.png" href="./static/img/icon_instagram.png" />
-        <title>Instagram_Alex</title>
-    </head>
-    <body>
-        <div class="instagram-wrapper">
-            <div class="instagram-box-um">
-                <img src="./static/img/instagram-celular.png" alt="celular">
+{% extends 'base.html' %}
+{% block content %} 
 
+<div class="instagram-wrapper">
+    <div class="instagram-box-um">
+        <img src="./static/img/instagram-celular.png" alt="celular">
+
+    </div>
+    <div class="instagram-box-dois">
+        <div class="group">
+            <img src="./static/img/instagram-logo.png" class="instagram-logo" alt="logo-instagram">
+            <div class="profile-foto">
+                <img src="./static/img/foto.jpg" alt="foto de perfil">
             </div>
-            <div class="instagram-box-dois">
-                <div class="group">
-                    <img src="./static/img/instagram-logo.png" class="instagram-logo" alt="logo-instagram">
-                    <div class="profile-foto">
-                        <img src="./static/img/foto.jpg" alt="foto de perfil">
-                    </div>
-                    <a href="#" class="login">Continue como Alex</a>
-                    <a href="#" class="logout">Remover conta</a>
-                </div>
-                <div class="group">
-                    <p class="not-account">Não é Alex</p>
-                    <p class="not-account">
-                        <span class="link-blue">Alternar contas</span>
-                        ou 
-                        <span class="link-blue">Inscreva-se</span>
-                    </p>
-                </div>
-                <div class="get-app">
-                    <p class="app">Baixe nossos apps!</p>
-                    <div class="download">
-                        <a href="#" class="appdownload"></a>
-                        <a href="#" class="appdownload"></a>
-                    </div>
-                </div>
-            </div> 
+            <a href="#" class="login">Continue como Alex</a>
+            <a href="#" class="logout">Remover conta</a>
         </div>
-    </body>
-</html>
+        <div class="group">
+            <p class="not-account">Não é Alex</p>
+            <p class="not-account">
+                <span class="link-blue">Alternar contas</span>
+                ou 
+                <span class="link-blue">Inscreva-se</span>
+            </p>
+        </div>
+        <div class="get-app">
+            <p class="app">Baixe nossos apps!</p>
+            <div class="download">
+                <a href="#" class="appdownload"></a>
+                <a href="#" class="appdownload"></a>
+            </div>
+        </div>
+    </div> 
+</div>
+{% endblock %}
