@@ -30,6 +30,5 @@
         "venv.bak{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/09066520-2184-44ad-866a-a50904764412/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/app-instagram",
     "appService.deploySubpath": "."
 }
