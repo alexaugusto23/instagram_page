@@ -165,6 +165,8 @@ body
     background-image: url('/static/img/googleplay-button.png');
 }
 
+
+
 /* media queries*/
 
 @media(max-width: 1024px){
