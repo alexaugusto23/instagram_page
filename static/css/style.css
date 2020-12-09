@@ -158,12 +158,12 @@ body
 
 .appdownload:nth-child(1)
 {
-    background-image: url('./static/img/apple-button.png');
+    background-image: url('/static/img/apple-button.png');
 }
 
 .appdownload:nth-child(2)
 {
-    background-image: url('./static/img/googleplay-button.png');
+    background-image: url('/static/img/googleplay-button.png');
 }
 
 
