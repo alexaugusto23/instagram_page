@@ -224,23 +224,26 @@
 }
 
 @media(max-width: 650px){
-    body{
+    .body-cont{
         background-color: #ffffff;
     }
 
-    .instagram-wrapper{
+    .menu{
         width: 90%;
     }
 
-    .instagram-box-um{
-        display: none;
+    .submenu
+    {
+        width: 90%;
     }
 
-    .instagram-box-dois{
+    .box_um{
         width: 100%;
     }
 
-    .group{
-        border: 1px solid transparent;
+    .box_dois{
+        width: 100%;
     }
+
+
 }
